@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50 p-4 md:p-8 font-['Inter',_sans-serif]">
-      <header className="mb-10 text-center">
+      <header className="text-center ">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-2">
           South African Government Directory
         </h1>
