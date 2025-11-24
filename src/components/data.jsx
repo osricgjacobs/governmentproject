@@ -31,53 +31,53 @@ export const officialsData = [
   },
   {
     id: 4,
-    name: "Sindisiwe Chikunga",
-    office: "Women, Youth and Persons With Disabilities",
-    party: "ANC",
-    qualification: "Master’s in Nursing",
-    description:
-      "Dedicated to promoting and protecting the rights and socio-economic inclusion of women, youth, and persons with disabilities.",
-  },
-  {
-    id: 5,
     name: "John Steenhuisen",
-    office: "Agriculture",
+    office: "Minister of Agriculture",
     party: "DA",
-    qualification: "Matric",
+    qualification: "NQF Level 4/Matric",
     description:
       "Responsible for regulating and supporting agricultural production, farm security, and food safety.",
   },
   {
-    id: 6,
+    id: 5,
     name: "Siviwe Gwarube",
-    office: "Basic Education",
+    office: "Minister of Basic Education",
     party: "DA",
-    qualification: "Honours in Political Science and Government",
+    qualification: "BA Honours (Law and Politics)",
     description:
       "Oversees all aspects of schooling from Grade R to Grade 12, focusing on quality and learning outcomes.",
   },
   {
-    id: 7,
+    id: 6,
     name: "Solly Malatsi",
-    office: "Communications and Digital Technologies",
+    office: "Minister of Communications and Digital Technologies",
     party: "DA",
-    qualification: "Honours in Politics",
+    qualification: "BA (Public Administration), Honours in Politics",
     description:
       "Manages telecommunications, digital infrastructure, state broadcasting, and promoting digital inclusion.",
   },
   {
-    id: 8,
+    id: 7,
     name: "Velenkhosi Hlabisa",
-    office: "Cooperative Governance and Traditional Affairs",
+    office: "Minister of Cooperative Governance and Traditional Affairs",
     party: "IFP",
     qualification: "Honours in History",
     description:
       "Leads government's support for local and provincial spheres, and manages the institution of traditional leadership.",
   },
   {
+    id: 8,
+    name: "Pieter Groenewald",
+    office: "Minister of Correctional Services",
+    party: "FF+",
+    qualification: "D. Phil (Doctor of Philosophy)",
+    description:
+      "Oversees the management of prisons and facilities, focusing on inmate rehabilitation and reintegration into society.",
+  },
+  {
     id: 9,
     name: "Angie Motshekga",
-    office: "Defence and Military Veterans",
+    office: "Minister of Defence and Military Veterans",
     party: "ANC",
     qualification: "Masters in Education",
     description:
@@ -86,226 +86,226 @@ export const officialsData = [
   {
     id: 10,
     name: "Kgosientsho Ramokgopa",
-    office: "Electricity and Energy",
+    office: "Minister of Electricity and Energy",
     party: "ANC",
-    qualification: "PhD in Public Affairs",
+    qualification: "PhD (Public Administration)",
     description:
       "Mandated to address the national energy crisis, stabilize the electricity grid, and oversee the energy mix.",
   },
   {
     id: 11,
     name: "Nomakhosazana Meth",
-    office: "Employment and Labour",
+    office: "Minister of Employment and Labour",
     party: "ANC",
-    qualification: "Honours in Public Administration",
+    qualification: "BA Hons (Public Administration)",
     description:
       "Manages labor laws, worker protection, employment equity, and social security funds (e.g., UIF).",
   },
   {
     id: 12,
-    name: "Dion George",
-    office: "Forestry, Fisheries and Environment",
-    party: "DA",
-    qualification: "PhD in Business Leadership",
-    description:
-      "Oversees environmental protection, climate change policy, and the sustainable use of natural resources like fisheries.",
-  },
-  {
-    id: 13,
     name: "Enoch Godongwana",
-    office: "Finance",
+    office: "Minister of Finance",
     party: "ANC",
-    qualification: "Masters in Financial Economics",
+    qualification: "M.Sc. (Financial Economics)",
     description:
       "Leads the National Treasury, responsible for managing the national budget and implementing fiscal policy.",
   },
   {
+    id: 13,
+    name: "Willem Aucamp",
+    office: "Minister of Forestry, Fisheries and the Environment",
+    party: "DA",
+    qualification: "Public Representative Experience",
+    description:
+      "Oversees environmental protection, climate change policy, and the sustainable use of natural resources like fisheries.",
+  },
+  {
     id: 14,
     name: "Aaron Motsoaledi",
-    office: "Health",
+    office: "Minister of Health",
     party: "ANC",
-    qualification: "Bachelor of Medicine and Surgery",
+    qualification: "MBChB (Medical Doctor)",
     description:
       "Responsible for the national healthcare system and the implementation of the National Health Insurance (NHI) policy.",
   },
   {
     id: 15,
-    name: "Blade Nzimande",
-    office: "Science and Technology and Innovation",
-    party: "SACP/ANC",
-    qualification: "PhD in Sociology",
-    description:
-      "Promotes scientific research, technology development, and innovation across all economic sectors.",
-  },
-  {
-    id: 16,
-    name: "Nobuhle Nkabane",
-    office: "Higher Education",
-    party: "ANC",
-    qualification: "PhD in Public Administration",
+    name: "Buti Manamela",
+    office: "Minister of Higher Education and Training",
+    party: "ANC (SACP)",
+    qualification: "Master of Management (Public Policy)",
     description:
       "Oversees tertiary education (universities and TVETs) and national skills development strategies.",
   },
   {
-    id: 17,
+    id: 16,
     name: "Leon Schreiber",
-    office: "Home Affairs",
+    office: "Minister of Home Affairs",
     party: "DA",
-    qualification: "PhD in Political Science",
+    qualification: "PhD (Political Science)",
     description:
       "Responsible for civic registration, identity management, immigration, and border management.",
   },
   {
-    id: 18,
-    name: "Mmamoloko Kubayi",
-    office: "Human Settlements",
+    id: 17,
+    name: "Thembisile Simelane",
+    office: "Minister of Human Settlements",
     party: "ANC",
-    qualification: "Master’s in Public and Development Management",
+    qualification: "Master of Public Administration",
     description:
       "Focuses on providing access to adequate housing and developing sustainable, integrated human settlements.",
   },
   {
-    id: 19,
+    id: 18,
     name: "Ronald Lamola",
-    office: "International Relations and Cooperation",
+    office: "Minister of International Relations and Cooperation",
     party: "ANC",
-    qualification: "Masters in Corporate Law and Extractive Law",
+    qualification: "LLM (Master of Laws)",
     description:
       "Leads the country's foreign policy, diplomacy, and international development cooperation.",
   },
   {
-    id: 20,
-    name: "Thembi Nkadimeng",
-    office: "Justice and Constitutional Development",
+    id: 19,
+    name: "Mmamoloko Kubayi",
+    office: "Minister of Justice and Constitutional Development",
     party: "ANC",
-    qualification: "Bachelor of Philosophy in Political Studies",
+    qualification: "Masters in Public and Development Management",
     description:
       "Responsible for the judiciary, legal services, and upholding the Constitution and the rule of law.",
   },
   {
-    id: 21,
-    name: "Pieter Groenewald",
-    office: "Correctional Services",
-    party: "FF+",
-    qualification: "PhD in Political Studies",
+    id: 20,
+    name: "Mzwanele Nyhontso",
+    office: "Minister of Land Reform and Rural Development",
+    party: "PAC",
+    qualification: "Unknown (President of PAC)",
     description:
-      "Oversees the management of prisons and facilities, focusing on inmate rehabilitation and reintegration into society.",
+      "Manages land redistribution, restitution claims, land tenure reform, and rural development programs.",
   },
   {
-    id: 22,
+    id: 21,
     name: "Gwede Mantashe",
-    office: "Mineral and Petroleum Resources",
+    office: "Minister of Mineral and Petroleum Resources",
     party: "ANC",
-    qualification: "MBA",
+    qualification: "B.Com Hons",
     description:
       "Oversees the regulation and development of the mining and resources sectors, including exploration and safety.",
   },
   {
-    id: 23,
-    name: "Senzo Mchunu",
-    office: "Police",
-    party: "ANC",
-    qualification: "Degree in education and international relations",
-    description:
-      "Leads the South African Police Service (SAPS), focused on crime prevention, investigation, and maintaining public order.",
-  },
-  {
-    id: 24,
-    name: "Dean Macpherson",
-    office: "Public Works and Infrastructure",
-    party: "DA",
-    qualification: "Matric",
-    description:
-      "Manages the government's immense property portfolio and facilitates key public infrastructure projects.",
-  },
-  {
-    id: 25,
-    name: "Stella Ndabeni-Abrahams",
-    office: "Small Business Development",
-    party: "ANC",
-    qualification: "Degree in Business Administration and Management",
-    description:
-      "Dedicated to supporting the growth and development of small, medium, and micro-enterprises (SMMEs).",
-  },
-  {
-    id: 26,
-    name: "Gayton McKenzie",
-    office: "Sports, Arts and Culture",
-    party: "PA",
-    qualification: "Matric",
-    description:
-      "Focuses on developing national sport, supporting cultural industries, and preserving heritage.",
-  },
-  {
-    id: 27,
-    name: "Patricia de Lille",
-    office: "Tourism",
-    party: "GOOD",
-    qualification: "Diploma in Industrial Relations",
-    description:
-      "Responsible for developing and marketing South Africa as a premier domestic and international tourist destination.",
-  },
-  {
-    id: 28,
-    name: "Parks Tau",
-    office: "Trade, Industry and Competition",
-    party: "ANC",
-    qualification: "Master’s in Public Policy & Management",
-    description:
-      "Works to stimulate economic growth, industrialization, investment, and ensuring fair market competition.",
-  },
-  {
-    id: 29,
-    name: "Barbara Creecy",
-    office: "Transport",
-    party: "ANC",
-    qualification: "Master’s in Public Policy and Management",
-    description:
-      "Manages national transport infrastructure and regulatory policy for road, rail, air, and maritime safety.",
-  },
-  {
-    id: 30,
-    name: "Pemmy Majodina",
-    office: "Water and Sanitation",
-    party: "ANC",
-    qualification: "Honorary Doctorate",
-    description:
-      "Manages the country's water resources and is responsible for ensuring the delivery of water and sanitation services.",
-  },
-  {
-    id: 31,
-    name: "Inkosi Mzamo Buthelezi",
-    office: "Public Service and Administration",
-    party: "IFP",
-    qualification: "National Diploma in Marketing and Business Management",
-    description:
-      "Responsible for government efficiency, public service ethics, and the capacity of the civil service.",
-  },
-  {
-    id: 32,
+    id: 22,
     name: "Maropene Ramokgopa",
-    office: "Planning, Monitoring and Evaluation",
+    office: "Minister of Planning, Monitoring and Evaluation",
     party: "ANC",
     qualification: "Master of Management (Public Policy)",
     description:
       "Responsible for setting national strategic goals and monitoring the performance of all government departments.",
   },
   {
-    id: 33,
+    id: 23,
+    name: "Senzo Mchunu",
+    office: "Minister of Police",
+    party: "ANC",
+    qualification: "BA (Education)",
+    description:
+      "Leads the South African Police Service (SAPS), focused on crime prevention, investigation, and maintaining public order.",
+  },
+  {
+    id: 24,
+    name: "Mzamo Buthelezi",
+    office: "Minister of Public Service and Administration",
+    party: "IFP",
+    qualification: "National Diploma (Marketing & Business Management)",
+    description:
+      "Responsible for government efficiency, public service ethics, and the capacity of the civil service.",
+  },
+  {
+    id: 25,
+    name: "Dean Macpherson",
+    office: "Minister of Public Works and Infrastructure",
+    party: "DA",
+    qualification: "Certificate in Public Policy",
+    description:
+      "Manages the government's immense property portfolio and facilitates key public infrastructure projects.",
+  },
+  {
+    id: 26,
+    name: "Blade Nzimande",
+    office: "Minister of Science, Technology and Innovation",
+    party: "ANC (SACP)",
+    qualification: "PhD (Sociology)",
+    description:
+      "Promotes scientific research, technology development, and innovation across all economic sectors.",
+  },
+  {
+    id: 27,
+    name: "Stella Ndabeni-Abrahams",
+    office: "Minister of Small Business Development",
+    party: "ANC",
+    qualification: "Masters in Management (Digital Business)",
+    description:
+      "Dedicated to supporting the growth and development of small, medium, and micro-enterprises (SMMEs).",
+  },
+  {
+    id: 28,
     name: "Nokuzola Tolashe",
-    office: "Social Development",
+    office: "Minister of Social Development",
     party: "ANC",
     qualification: "BA (Social Work)",
     description:
       "Oversees social assistance programs, including grants, and community-based welfare services.",
   },
   {
-    id: 34,
-    name: "Mzwanele Nyhontso",
-    office: "Land Reform and Rural Development",
-    party: "PAC",
-    qualification: "Unknown (President of PAC)",
+    id: 29,
+    name: "Gayton McKenzie",
+    office: "Minister of Sport, Arts and Culture",
+    party: "PA",
+    qualification: "N/A (Author, Businessman)",
     description:
-      "Manages land redistribution, restitution claims, land tenure reform, and rural development programs.",
+      "Focuses on developing national sport, supporting cultural industries, and preserving heritage.",
+  },
+  {
+    id: 30,
+    name: "Patricia De Lille",
+    office: "Minister of Tourism",
+    party: "GOOD",
+    qualification: "Matric, Trade Unionist",
+    description:
+      "Responsible for developing and marketing South Africa as a premier domestic and international tourist destination.",
+  },
+  {
+    id: 31,
+    name: "Parks Tau",
+    office: "Minister of Trade, Industry and Competition",
+    party: "ANC",
+    qualification: "Master's degree (Public Policy & Management)",
+    description:
+      "Works to stimulate economic growth, industrialization, investment, and ensuring fair market competition.",
+  },
+  {
+    id: 32,
+    name: "Barbara Creecy",
+    office: "Minister of Transport",
+    party: "ANC",
+    qualification: "Master's degree (Public Policy and Management)",
+    description:
+      "Manages national transport infrastructure and regulatory policy for road, rail, air, and maritime safety.",
+  },
+  {
+    id: 33,
+    name: "Pemmy Majodina",
+    office: "Minister of Water and Sanitation",
+    party: "ANC",
+    qualification: "BEd (Education)",
+    description:
+      "Manages the country's water resources and is responsible for ensuring the delivery of water and sanitation services.",
+  },
+  {
+    id: 34,
+    name: "Lydia Chikunga",
+    office: "Minister of Women, Youth and Persons with Disabilities",
+    party: "ANC",
+    qualification: "MA (Nursing)",
+    description:
+      "Dedicated to promoting and protecting the rights and socio-economic inclusion of women, youth, and persons with disabilities.",
   },
 ];
