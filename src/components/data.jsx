@@ -25,7 +25,7 @@ export const officialsData = [
     name: "Khumbudzo Ntshavheni",
     office: "Minister in the Presidency",
     party: "ANC",
-    qualification: "MBA",
+    qualification: "MBA (Masters of Business Administration)",
     description:
       "Minister assisting the President with political, strategic, and overall cabinet coordination.",
   },
@@ -259,7 +259,7 @@ export const officialsData = [
     name: "Gayton McKenzie",
     office: "Minister of Sport, Arts and Culture",
     party: "PA",
-    qualification: "N/A (Author, Businessman)",
+    qualification: "NQF Level 4/Matric",
     description:
       "Focuses on developing national sport, supporting cultural industries, and preserving heritage.",
   },
@@ -268,7 +268,7 @@ export const officialsData = [
     name: "Patricia De Lille",
     office: "Minister of Tourism",
     party: "GOOD",
-    qualification: "Matric, Trade Unionist",
+    qualification: "NQF Level 4/Matric",
     description:
       "Responsible for developing and marketing South Africa as a premier domestic and international tourist destination.",
   },
@@ -304,7 +304,7 @@ export const officialsData = [
     name: "Lydia Chikunga",
     office: "Minister of Women, Youth and Persons with Disabilities",
     party: "ANC",
-    qualification: "MA (Nursing)",
+    qualification: "Masters in Nursing",
     description:
       "Dedicated to promoting and protecting the rights and socio-economic inclusion of women, youth, and persons with disabilities.",
   },
