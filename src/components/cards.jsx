@@ -21,7 +21,7 @@ export function MinisterCard({ official }) {
     <div className="minister-card bg-white p-6 rounded-xl shadow-lg border-t-4 border-blue-600 hover:shadow-xl transition duration-300">
       {/* Access data via 'official' prop */}
       <h2 className="text-2xl font-bold text-gray-900 mb-3">{official.name}</h2>
-      <img className = "w-50 h-80 object-cover mb-2 mx-auto border-8 border-double" src={`./public/images/${official.id}.jpg`} alt={`Photo of ${official.name}`} />
+      <img className = "w-50 h-80 object-cover mb-2 mx-auto border-8 border-double" src={`./images/${official.id}.jpg`} alt={`Photo of ${official.name}`} />
       <p className="text-lg font-semibold text-black-700 mb-4">
         {official.office}
       </p>
