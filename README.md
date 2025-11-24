@@ -1,16 +1,71 @@
-# React + Vite
+# 🇿🇦 SA Executive Directory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application built with **React** and **Tailwind CSS** that serves as a transparent directory of the current South African Cabinet Ministers (7th Administration).
 
-Currently, two official plugins are available:
+This project focuses on **data integrity** and **national branding**, providing users with a clean, searchable list of the Executive, including key professional and political details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-----
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * **Comprehensive Data:** Displays details for all **34 Cabinet Ministers** of the 7th Administration, including their specific portfolio, political party, and detailed educational qualifications.
+  * **Real-time Search:** Instantly filters the directory by **Minister Name**, **Portfolio**, **Party**, or **Qualification** using efficient React state management.
+  * **Unique Theming:** Features a custom color palette derived from the South African flag, utilizing **Olive Gold** (`#808000`), **Green** (`#007A33`), and **Blue** (`#3C6382`) for a professional and authoritative visual style.
+  * **Responsive Design:** Fully optimized layout for seamless viewing across all devices (desktop, tablet, and mobile).
+  * **Modular Architecture:** Structured for clarity and scalability using modern React standards with logical separation of concerns across multiple files.
 
-## Expanding the ESLint configuration
+-----
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Technology Stack
+
+  * **Frontend Framework:** React (Functional Components & Hooks: `useState`, `useMemo`)
+  * **Styling:** Tailwind CSS (Utility-First)
+  * **State Management:** Local Component State (`useState`)
+  * **Data Structure:** JavaScript ES Modules (`.jsx`)
+
+-----
+
+## 📂 File Structure Overview
+
+The project maintains a logical separation of duties, promoting clarity and ease of maintenance:
+
+| File | Purpose | Key Content |
+| :--- | :--- | :--- |
+| **`App.jsx`** | **Main Application Logic** | Contains global state (`searchTerm`), the filtering logic (`useMemo`), sets up the custom SA color variables (CSS), and renders the header, search input, and grid of cards. |
+| **`data.jsx`** | **Static Data Source** | Exports the `officialsData` array containing the verified details (ID, Name, Office, Party, Qualification, Description) for all 34 ministers. |
+| **`cards.jsx`** | **Reusable Component** | Exports the `MinisterCard` component. This component receives a single minister's data as a prop and applies dynamic Tailwind styling, including party-specific colors. |
+
+-----
+
+## 🎨 South African Theme Palette
+
+The application uses custom CSS variables (defined in `App.jsx`) to ensure brand consistency:
+
+| Variable | Hex Code | Purpose in Design |
+| :--- | :--- | :--- |
+| `--sa-bg` | `#808000` | Main application background (Olive Gold) |
+| `--sa-gold` | `#ffcb03` | Primary accent (Header text, Card top borders) |
+| `--sa-green` | `#007A33` | Accent color (Portfolio text, Footer dividers) |
+| `--sa-blue` | `#3C6382` | Text/Heading accents (Minister names) |
+
+-----
+
+## 🚀 Installation and Usage
+
+To run this project locally, ensure you have Node.js and a package manager (npm or Yarn) installed.
+
+1.  **Set up the project files:** Ensure the `App.jsx`, `cards.jsx`, and `data.jsx` files are in your project directory alongside a valid `package.json` setup (e.g., from a Vite project).
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the application:**
+    ```bash
+    npm run dev
+    ```
+
+The application will typically launch and be accessible via your local development server address.
+
+-----
+
+*Created by Osric Jacobs. Data reflects the current 7th Administration Cabinet (2024).*
