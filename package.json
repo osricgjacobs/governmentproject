@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":""
+    "clean": "del /s /q dist",
+    "build": "vite build",
+    "predeploy": "npm run clean && npm run build",
+    "deploy": "gh-pages -d dist -a"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
